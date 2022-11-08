@@ -1,0 +1,28 @@
+<ng-template #loading>
+  <div class="spinner d-flex justify-content-center align-items-center mt-5" >
+    <div class="spin">
+      <i class="p-2 fa-solid fa-spinner fa-5x"></i>
+
+    </div>
+  </div>
+  </ng-template>
+<div class="container">
+  <div class="row" *ngIf="dataArr.length;else loading">
+    <div class="  p-5 ">
+      <h2 class="text-center sec-color fa-3x">Data</h2>
+     <app-line></app-line>
+      </div>
+    <div class="col-md-3" *ngFor="let item of dataArr" >
+      <div class="data">
+        <img [src]="item.strMealThumb"class="w-100" >
+        <h2 class="text-center mt-1">{{item.strMeal.split(' ').slice(0,1).join()}}</h2>
+      </div>
+
+    </div>
+  </div>
+
+</div>
+
+
+
+

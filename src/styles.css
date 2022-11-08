@@ -1,0 +1,22 @@
+@font-face {
+  font-family:main-font;
+  src: url(./assets/fonts/Montserrat-Regular.ttf);
+}
+body{
+  font-family:main-font;
+}
+.line{
+  width: 5%;
+  height: 4px;
+ }
+
+ .main-bg{
+  background-color: #2C3E50;
+}
+.sec-color{
+  color:#2C3E50;
+}
+
+.background{
+  background-color: #1ABC9C  !important;
+}

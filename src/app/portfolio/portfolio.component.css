@@ -1,0 +1,16 @@
+.item{
+  position: relative;
+}
+.layer{
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color:rgba(45, 179, 148, 0.9);
+  opacity: 0;
+  transition: all 0.4s;
+}
+ .layer:hover{
+  opacity: 1;
+}

@@ -1,0 +1,11 @@
+a{
+  color: white !important;
+ font-weight: 700;
+}
+
+.active{
+  color: #1ABC9C !important;
+}
+li{
+  padding: 10px;
+}
